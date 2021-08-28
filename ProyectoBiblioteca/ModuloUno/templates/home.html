@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block contenido %}
+<h2>Home</h2>
+{% endblock %}
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <nav>
+        <ul>
+            {% if user.is_authenticated %}
+                <li>
+                    <a href="{% url 'logout' %}"> Cerrar sesion</a>
+                </li>
+            {% else %}  
+                <li>
+                    <a href="{% url 'login' %}"> Iniciar sesion</a>
+                </li>
+                <li>
+                    <a href="{% url 'registro' %}"> Registrarse</a>
+                </li>
+            {% endif %}
+        </ul>
+    </nav>
+</head>
+<body>
+    <h1>===================HOME==================</h1>
+        <a href="{% url 'categoria' %}">categoria</a>
+</body>
+</html> -->
